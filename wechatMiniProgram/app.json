@@ -1,0 +1,32 @@
+{
+    "pages":[
+        "pages/index/index",
+        "pages/pm25/pm25"
+    ],
+    "window":{
+        "backgroundTextStyle":"light",
+        "navigationBarBackgroundColor": "#20ACAB",
+        "navigationBarTitleText": " ",
+        "navigationBarTextStyle":"#fff"
+    },
+    "tabBar": {
+      "color":"#fff",
+      "backgroundColor":"#20ACAB",
+      "selectedColor": "#fff",
+      "borderStyle":"white",
+      "list": [
+        {
+          "pagePath": "pages/index/index",
+          "text": "首页",
+          "iconPath": "images/index.png",
+          "selectedIconPath": "images/index.png"
+        },
+        {
+          "pagePath": "pages/pm25/pm25",
+          "text": "PM2.5",
+          "iconPath": "images/pm2.5.png",
+          "selectedIconPath": "images/pm2.5.png"
+        } 
+      ]
+    }
+}

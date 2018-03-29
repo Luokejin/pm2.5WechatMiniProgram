@@ -1,0 +1,63 @@
+<view class="header">
+   <!--背景图  -->
+   <image class="backgroundImg" mode="scaleToFill" src="../../images/header.jpg"></image>
+   <!-- PM2.5模块 -->
+   <view class="pm25">
+      <view class='left'>
+        <view class='center'>
+          <text class='bigword block'>PM2.5</text>
+          <text class="midword block">实时监测</text>
+        </view>
+      </view>
+      <view class="right">
+        <view class='center'>
+            <text class='smallword block lable'>浓度：</text>
+            <text class='bigword inline'>{{pm25}} </text>
+            <text class="smallword inline">μg/m³</text>
+        </view>
+      </view>
+   </view>
+
+  <view class='border'></view>
+
+   <!-- AQI指数  -->
+    <view class="aqi">
+      <view class='left'>
+        <view class='center'>
+          <text class='bigword block'>AQI</text>
+          <text class="midword light block">空气质量指数</text>
+        </view>
+      </view>
+      <view class="right">
+        <view class='center'>
+            <text class='smallword text-center block tag'>{{level}}</text>
+            <text class='bigword text-center block'>{{aqi}} </text>
+        </view>
+      </view>
+    </view>
+</view>
+
+ <view class='advise'>
+      <view class='left'>
+        <view class='center'>
+            <text class='bigword text-center block heading'>宜</text>
+            <text class='text-center block suggestion'>{{good1}}</text>
+            <text class='text-center block suggestion'>{{good2}}</text>
+        </view>
+      </view>
+
+      <view class='right'>
+        <view class='center'>
+            <text class='bigword text-center block heading'>忌</text>
+            <text class='text-center block suggestion'>{{bad1}}</text>
+            <text class='text-center block suggestion'>{{bad2}}</text>
+        </view>
+      </view>
+    </view>
+
+<view class='greenhat'>
+  <view class='center'>
+      <image class="logo" mode="widthFix" src="../../images/GreenHat.png"></image>
+      <text class='introduction'>  版权所有 © GreenHat团队</text>
+  </view>
+</view>

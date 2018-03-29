@@ -1,0 +1,16 @@
+<view class='location'>
+    <image class="icon" mode="widthFix" src="../../images/location.png"></image>
+     <text class='smallword'> {{address}}</text> 
+</view>
+
+<view class="center ">
+      <image class="logo" src="../../images/show.png" mode="widthFix"></image>
+      <view class="advert">{{advert}}</view>
+</view>
+
+<view class='greenhat'>
+  <view class='wrapper'>
+      <image class="brand" mode="widthFix" src="../../images/GreenHat.png"></image>
+      <text class='introduction'>  版权所有 © GreenHat团队</text>
+  </view>
+</view>
